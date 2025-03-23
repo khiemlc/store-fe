@@ -1,0 +1,23 @@
+.product-infor__container {
+  margin: 20px 100px;
+
+  .description {
+    margin: 20px;
+    display: flex;
+  }
+}
+.title__infor {
+  width: 20%;
+  height: 20px;
+  font-size: 24px;
+  font-weight: 700;
+  color: black;
+  text-align: center;
+  margin-top: 20px;
+}
+.content {
+  width: 80%;
+  img {
+    width: -webkit-fill-available;
+  }
+}

@@ -1,0 +1,188 @@
+.bold_red {
+  color: #ed1c24;
+  font-weight: 600;
+}
+
+.product-detail__container {
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+  margin: 20px 100px;
+  //promo
+  .default-promotion__container {
+    width: 24%;
+    .detail__gift {
+      display: block;
+      margin: 15px 30px;
+      .gift-box {
+        border-radius: 4px;
+        border: 1px solid #f60;
+        position: relative;
+        font-size: 16px;
+        padding-bottom: 15px;
+        .ribbon {
+          position: absolute;
+          left: -12px;
+          top: 10px;
+          ::before {
+            content: "";
+            height: 0;
+            width: 0;
+            display: block;
+            position: absolute;
+            top: 0;
+            right: -16px;
+            border-color: #f60 transparent;
+            border-style: solid;
+            border-width: 18px 16px;
+          }
+          span {
+            display: block;
+            position: relative;
+            background: #f60;
+            color: #fff;
+            text-decoration: none;
+            font-size: 14px;
+            line-height: 16px;
+            text-transform: uppercase;
+            font-weight: 700;
+            padding: 10px 10px 10px 30px;
+          }
+          ::after {
+            content: "";
+            height: 0;
+            width: 0;
+            display: block;
+            position: absolute;
+            bottom: -12px;
+            left: 0;
+            border-top: 12px solid #c75000;
+            border-left: 12px solid transparent;
+          }
+        }
+        .main-gift {
+          padding: 55px 10px 0 10px;
+          font-size: 90%;
+          li::before {
+            content: "✓";
+            color: #fff;
+            font-weight: 700;
+            background: #1447fe;
+            border-radius: 48px;
+            padding: 0 3px;
+            margin-right: 5px;
+            font-size: 12px;
+          }
+          li {
+            margin: 0 15px 7px 15px;
+          }
+        }
+      }
+    }
+    .detail__commit {
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      display: block;
+      margin: 15px 30px;
+      padding-bottom: 15px;
+      .commit__title {
+        border-radius: 4px 4px 0 0;
+        color: #fff;
+        background: #1447fe;
+        font-size: 16px;
+        font-weight: 600;
+        text-align: center;
+        padding: 7px;
+      }
+      ul {
+        li {
+          padding: 10px 0;
+          display: flex;
+          i {
+            padding-right: 10px;
+            background: -webkit-linear-gradient(#16bffd, #cb3066);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+          }
+          span {
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+  // img
+  .detail-image__container {
+    width: 34%;
+    .img__all {
+      margin-bottom: 15px;
+      .img__bg {
+        display: block;
+        min-height: 300px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+    }
+  }
+  //main
+  .detail-main__container {
+    width: 42%;
+    .main-title {
+      margin-bottom: 5px;
+      border-bottom: 1px dotted #999;
+      padding-bottom: 5px;
+      font-size: 24px;
+    }
+    .main-brand {
+    }
+    .price {
+      margin: 10px 0;
+      font-size: 22px;
+      .price--real {
+        color: #d0021c;
+        padding: 10px 0;
+        font-weight: 600;
+        margin-left: 10px;
+      }
+      .price--sale {
+        opacity: 0.8;
+        text-decoration: line-through;
+        padding-right: 10px;
+      }
+    }
+    .short-description {
+      margin: 10px;
+    }
+    .choice {
+      display: flex;
+      flex-direction: column;
+      .btn {
+        border-radius: 4px;
+        margin: 5px 0;
+        &.buy-now {
+          background-image: linear-gradient(to top, #1447fe, #36d1dc);
+          height: 50px;
+          color: white;
+          font-size: 26px;
+          &:hover {
+            opacity: 0.8;
+          }
+        }
+        &.add-cart {
+          background-image: linear-gradient(to top, #fec107, #fe9b07);
+          height: 40px;
+          font-size: 20px;
+          color: white;
+        }
+        &.call {
+          font-size: 16px;
+          font-weight: 500;
+          span {
+            color: #1447fe;
+          }
+        }
+      }
+    }
+  }
+}

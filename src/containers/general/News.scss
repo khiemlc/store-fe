@@ -1,0 +1,38 @@
+.news__container {
+  margin: 20px 150px;
+  a {
+    text-decoration: none;
+    color: black;
+    .news__component {
+      display: flex;
+      .news__img {
+        width: 280px;
+        height: 160px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        &.amsieutoc {
+          background-image: url("../../assets/images/news/amsieutoc.jpg");
+        }
+        &.tulanh {
+          background-image: url("../../assets/images/news/tulanh.png");
+          width: 390px !important;
+        }
+        &.tivi {
+          background-image: url("../../assets/images/news/tivi.jpg");
+        }
+      }
+      .news__infor {
+        margin-left: 20px;
+        margin-top: 20px;
+
+        .news__content {
+          font-size: 18px;
+          font-weight: 600;
+        }
+        .news__description {
+        }
+      }
+    }
+  }
+}

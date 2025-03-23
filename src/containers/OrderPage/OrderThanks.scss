@@ -1,0 +1,114 @@
+.order-thanks__container {
+  min-height: 60vh;
+  margin: 50px 500px;
+  border: 1px solid #ececec;
+  .order-thanks__title {
+    width: 100%;
+    color: rgb(246, 244, 241);
+    display: flex;
+    justify-content: center;
+    background-color: #1447fe;
+    padding: 5px 0;
+    .titlee {
+      padding-left: 10px;
+      font-size: 20px;
+      font-weight: 600;
+      margin: auto 0;
+    }
+  }
+  .order-thanks__content {
+    padding: 10px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    .thanks--init {
+      text-indent: 20px;
+      span {
+        float: right;
+      }
+    }
+    .order-detail {
+      background-color: #ececec;
+      padding: 5px;
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+      span {
+        font-weight: 600;
+      }
+    }
+    .order__item {
+      margin: 15px 0;
+      .item__title {
+        font-size: 16px;
+      }
+      .item__info {
+        margin-top: 15px;
+        font-size: 14px;
+        font-style: italic;
+
+        .item__quantity {
+          float: right;
+        }
+        .border {
+          margin-top: 4px;
+          border: 1px solid #ececec;
+          margin-bottom: 7px;
+        }
+      }
+    }
+  }
+  .order--cancel {
+    .btn {
+      background-image: linear-gradient(to top, #fec107, #fe9b07);
+      font-size: 20px;
+      margin: 10px auto;
+      width: 40%;
+      color: white;
+      border-radius: 4px;
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+    // width: 100%;
+    text-align: center;
+  }
+  .cancel__reason {
+    .btn {
+      background-image: linear-gradient(to top, #fec107, #fe9b07);
+      font-size: 20px;
+      margin: 10px auto;
+      width: 40%;
+      color: white;
+      border-radius: 4px;
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+    text-align: center;
+
+    .form-control {
+      font-size: 14px;
+      min-height: 70px;
+    }
+  }
+  .req__sent {
+    text-align: center;
+    color: #1447fe;
+
+    i {
+      padding-left: 10px;
+    }
+    button {
+      width: 80%;
+      margin: 10px auto;
+      background-image: linear-gradient(to top, #1447fe, #36d1dc);
+      height: 40px;
+      color: white;
+      font-size: 26px;
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+}

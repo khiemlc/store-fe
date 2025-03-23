@@ -1,0 +1,79 @@
+.order__container {
+  margin: 20px 100px;
+  min-height: 100vh;
+  .order__infor {
+    display: flex;
+    gap: 15px;
+    padding: 20px;
+    font-size: 18px;
+    .cus__infor {
+      width: 55%;
+      border-right: 2px solid #ececec;
+
+      .form-control {
+        font-size: 16px;
+      }
+      textarea {
+        min-height: 100px;
+      }
+    }
+    .order__detail {
+      //   min-height: 300px;
+      width: 40%;
+      .table {
+        .product-name {
+          font-size: 14px;
+        }
+        .product-price {
+          font-size: 14px;
+          font-weight: 600;
+        }
+      }
+      .cart__total {
+        .total {
+          font-weight: 600;
+          padding-top: 10px;
+          border-bottom: 2px solid #ececec;
+          border-radius: 5px;
+          span {
+          }
+          .money {
+            float: right;
+            padding-right: 20px;
+          }
+        }
+      }
+      .form-group {
+        .payment__method {
+          padding-top: 20px;
+        }
+        .form-control {
+          font-size: 16px;
+        }
+        .more {
+          margin-top: 5px;
+          font-size: 14px;
+          font-style: italic;
+          padding-left: 15px;
+        }
+      }
+      .btn {
+        background-image: linear-gradient(to top, #fec107, #fe9b07);
+        font-size: 18px;
+        margin: 10px 10px;
+        color: white;
+        border-radius: 4px;
+        padding: 0 10px;
+        height: 40px;
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+    }
+  }
+}
+.cus__title {
+  font-weight: 600;
+  font-size: 20px;
+  padding: 10px 0;
+}

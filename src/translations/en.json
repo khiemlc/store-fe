@@ -1,0 +1,75 @@
+{
+  "header__navbar": {
+    "cart": "Your cart",
+    "user": "User",
+    "pleaselogin": "Hello, pleased login!",
+    "login": "Login",
+    "register": "Register",
+    "hello": "Hello, ",
+    "manage-account": "Manage account",
+    "admin-page": "Admin's page",
+    "logout": "Logout",
+    "search": "Search product...",
+    "account_info": "Account's infomation",
+    "order_info": "Order's information"
+  },
+  "header__menu": {
+    "category": "Categories",
+    "news": "News",
+    "promotion": "Promotion",
+    "warranty": "Warranty",
+    "advisory": "Advisory",
+    "search": "What are you looking for..."
+  },
+  "common": {
+    "close": "Close",
+    "accept": "Accept",
+    "confirm": "Confirm",
+    "confirm-this-task": "Are you sure to process this task?",
+    "fail-to-load-data": "Fail to load data",
+    "unknown-error": "There was an error",
+    "internal-server-error": "Internal server error",
+    "bad-request": "Bad request",
+    "forbiden-request": "Invalid input data"
+  },
+  "login": {
+    "login": "Login",
+    "username": "Username",
+    "password": "Password",
+    "userpass-wrong": "Invalid username or password!",
+    "fullname": "Full Name",
+    "phone": "Phone Number",
+    "gender": "Gender",
+    "address": "Address",
+    "male": "Male",
+    "female": "Female"
+  },
+  "menu": {
+    "system": {
+      "header": "System",
+      "system-administrator": {
+        "header": "System Administrator",
+        "user-manage": "User manage",
+        "product-manage": "Package manage",
+        "register-package-group-or-account": "Register service package for group/account",
+        "user-redux": "manage user redux"
+      },
+      "system-parameter": {
+        "header": "System-parameter"
+      }
+    }
+  },
+  "body": {
+    "tote": "Tote"
+  },
+  "home__page": {
+    "premium": "Premium",
+    "upto": "Up to 37%",
+    "tivi": "Television",
+    "promotion": "BIG PROMOTION",
+    "viewmore": "VIEW MORE ⮞",
+    "new": "NEW PRODUCTS",
+    "topseller": "TOP SELLER",
+    "featured_category": "FEATURED CATEGORY"
+  }
+}

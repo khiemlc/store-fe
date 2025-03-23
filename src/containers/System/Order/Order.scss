@@ -1,0 +1,88 @@
+#OrderManage {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#OrderManage td,
+#OrderManage th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#OrderManage tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#OrderManage tr:hover {
+  background-color: #ddd;
+}
+
+#OrderManage th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04aa6d;
+  color: white;
+}
+.btn--edit {
+  width: 50px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #ff8f00;
+
+  &:hover {
+    background-color: transparent !important;
+    color: #ff8f00 !important;
+  }
+}
+.btn--confirm {
+  width: 50px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: rgb(13, 255, 0);
+
+  &:hover {
+    background-color: transparent !important;
+    color: rgb(14, 150, 7) !important;
+  }
+}
+.btn--delete {
+  width: 50px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #ff0505;
+
+  &:hover {
+    background-color: transparent !important;
+    color: #ff0505 !important;
+  }
+}
+.checking__container {
+  margin: 20px 100px;
+  min-height: 70vh;
+  margin-bottom: 50px;
+}
+.modal-order-container {
+  .modal-header {
+    button {
+      background-color: transparent;
+      color: aliceblue;
+      font-size: 25px;
+      border: none;
+      right: 10px;
+      position: absolute;
+    }
+  }
+  .form-control {
+    font-size: 14px;
+  }
+  .row {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+}

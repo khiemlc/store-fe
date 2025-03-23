@@ -1,0 +1,36 @@
+.create-product__container {
+  margin: 20px 100px;
+
+  .create-product__body {
+    font-size: 16px;
+    .form-control {
+      font-size: 16px !important;
+    }
+    .row {
+      .product-img__container {
+        .label-upload {
+          padding: 5px;
+          border-radius: 3px;
+          background-color: #ddd;
+          &:hover {
+            opacity: 0.9;
+          }
+        }
+        .product-img {
+          height: 50px;
+          width: 100%;
+          background: center center no-repeat;
+          background-size: contain;
+          border: 1px solid red;
+        }
+      }
+    }
+  }
+  button {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+}
+label {
+  font-size: 16px;
+}

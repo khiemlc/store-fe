@@ -1,0 +1,125 @@
+.cart__container {
+  margin: 20px 100px;
+  min-height: 100vh;
+  // border: 1px solid red;
+
+  .cart--empty {
+    margin: 100px 300px;
+    // border: 1px solid red;
+    min-height: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    i {
+      color: #e81111;
+      align-items: center;
+    }
+    span {
+      margin: 20px 0;
+    }
+    button {
+      width: 80%;
+      margin: 0 auto;
+      background-image: linear-gradient(to top, #1447fe, #36d1dc);
+      height: 40px;
+      color: white;
+      font-size: 26px;
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+  .cart {
+    // min-height: 500px;
+    // border: 1px solid red;
+
+    margin: 70px 20px;
+    .cart__main {
+      margin-top: 50px;
+
+      display: flex;
+      gap: 15px;
+      .cart__list {
+        // border: 1px solid green;
+        min-height: 100px;
+        width: 55%;
+        border-right: 2px solid #ececec;
+
+        table {
+          tbody {
+            vertical-align: middle;
+            tr {
+              th {
+                i {
+                  cursor: pointer;
+                }
+              }
+              td {
+                input {
+                  font-size: 14px;
+                }
+                .product-info {
+                  display: flex;
+                  // justify-content: space-between;
+                  .product-img {
+                    width: 60px;
+                    height: 60px;
+                    background-position: center center;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                  }
+                  .product-name {
+                    padding-left: 7px;
+                    margin: auto 0;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      .cart__total {
+        //   border: 1px solid red;
+        height: 100px;
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        font-size: 16px;
+        .total__title {
+          border-bottom: 3px solid #ececec;
+          font-size: 22px;
+          font-weight: 500;
+          border-radius: 2px;
+        }
+        .tempo,
+        .total {
+          margin: 7px 0;
+          border-bottom: 2px solid #ececec;
+          .money {
+            float: right;
+            font-weight: 600;
+            padding-right: 10px;
+          }
+        }
+        .btn {
+          background-image: linear-gradient(to top, #fec107, #fe9b07);
+          font-size: 20px;
+          margin: 10px auto;
+          width: 80%;
+          color: white;
+          border-radius: 4px;
+
+          &:hover {
+            opacity: 0.8;
+          }
+        }
+      }
+    }
+  }
+  .note {
+    span {
+      font-weight: 600;
+      color: red;
+    }
+  }
+}

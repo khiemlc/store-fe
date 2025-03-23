@@ -1,0 +1,102 @@
+.account__container {
+  margin: 30px 120px;
+  min-height: 100vh;
+  // border: 1px solid red;
+  .account__content {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    .general-info {
+      border: 1px solid #ececec;
+      width: 33%;
+      min-height: 70vh;
+      border-radius: 12px;
+      .name {
+        font-size: 18px;
+        text-align: center;
+        border-bottom: 1px solid #ececec;
+        margin-bottom: 0px;
+        background-color: #1447fe;
+        color: white;
+        border-radius: 12px;
+        i {
+          padding-top: 20px;
+        }
+        .user-name {
+          font-size: 22px;
+          font-weight: 600;
+        }
+      }
+      .user__menu {
+        margin-top: 40px;
+        text-align: center;
+        font-size: 16px;
+        li {
+          margin-top: 30px;
+          border-bottom: 1px solid #ececec;
+          i {
+            font-size: 20px;
+            margin-right: 12px;
+            min-width: 25px;
+            cursor: pointer;
+          }
+          span {
+            cursor: pointer;
+          }
+          &:hover {
+            color: #1447fe;
+          }
+          &.active {
+            color: #1447fe;
+          }
+        }
+      }
+    }
+    .account__main {
+      width: 65%;
+      border-radius: 12px;
+      min-height: 70vh;
+      font-size: 16px;
+    }
+  }
+}
+.info__container {
+  font-size: 16px;
+  .info__title {
+    font-size: 26px;
+    padding: 16px;
+  }
+  .info__body {
+    margin: 0 40px;
+    .body__input {
+      display: flex;
+      font-size: 16px;
+      flex-wrap: wrap;
+      margin-top: 20px;
+      .name {
+        width: 20%;
+        margin: auto;
+        padding-left: 30px;
+      }
+
+      .form-control {
+        font-size: 14px;
+        width: 70%;
+        float: left;
+      }
+    }
+    button {
+      width: 30%;
+      // margin: 10px auto;
+      background-image: linear-gradient(to top, #1447fe, #36d1dc);
+      height: 30px;
+      color: white;
+      font-size: 20px;
+      margin: 20px auto;
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+}

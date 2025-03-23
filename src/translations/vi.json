@@ -1,0 +1,76 @@
+{
+  "header__navbar": {
+    "name_shop": "Shell's Secret",
+    "cart": "Giỏ hàng",
+    "user": "Tài khoản",
+    "pleaselogin": "Xin chào, vui lòng đăng nhập!",
+    "login": "Đăng nhập",
+    "register": "Đăng ký",
+    "hello": "Xin chào,",
+    "manage-account": "Quản lý tài khoản",
+    "admin-page": "Trang quản trị viên",
+    "logout": "Đăng xuất",
+    "search": "Bạn tìm gì...",
+    "account_info": "Thông tin tài khoản",
+    "order_info": "Thông tin đơn hàng"
+  },
+  "header__menu": {
+    "category": "Danh mục sản phẩm",
+    "news": "Tin tức",
+    "promotion": "Khuyến mãi",
+    "advisory": "Tư vấn",
+    "search": "Bạn tìm gì..."
+  },
+  "common": {
+    "close": "Đóng",
+    "accept": "Chấp nhận",
+    "confirm": "Xác nhận",
+    "confirm-this-task": "Bạn có chắc chắn thực hiện tác vụ này?",
+    "fail-to-load-data": "Không thể tải về dữ liệu",
+    "unknown-error": "Có lỗi xảy ra",
+    "internal-server-error": "Lỗi kết nối",
+    "bad-request": "Yêu cầu không hợp lệ",
+    "forbiden-request": "Thông tin truyền vào không hợp lệ"
+  },
+  "login": {
+    "login": "Đăng nhập",
+    "username": "Tên đăng nhập",
+    "password": "Mật khẩu",
+    "userpass-wrong": "Sai tên đăng nhập hoặc mật khẩu!",
+    "fullname": "Họ và tên",
+    "phone": "Số điện thoại",
+    "gender": "Giới tính",
+    "address": "Địa chỉ",
+    "male": "Nam",
+    "female": "Nữ"
+  },
+  "menu": {
+    "system": {
+      "header": "Hệ thống",
+      "system-administrator": {
+        "header": "Quản trị hệ thống",
+        "user-manage": "Quản lý người sử dụng",
+        "product-manage": "Quản lý gói",
+        "register-package-group-or-account": "Đăng ký gói dịch vụ cho nhóm/tài khoản",
+        "user-redux": "Quản lý người dùng redux"
+      },
+      "system-parameter": {
+        "header": "Tham số hệ thống"
+      }
+    }
+  },
+  "body": {
+    "tote": "Vòng Tay",
+    "necklace": "Vòng Cổ"
+  },
+  "home__page": {
+    "premium": "Hàng cao cấp",
+    "tivi": "Tivi trưng bày",
+    "upto": "Giảm đến 37%",
+    "promotion": "TƯNG BỪNG KHUYẾN MẠI",
+    "new": "SẢN PHẨM MỚI",
+    "topseller": "SẢN PHẨM BÁN CHẠY",
+    "featured_category": "DANH MỤC NỔI BẬT",
+    "viewmore": "XEM TẤT CẢ ⮞"
+  }
+}

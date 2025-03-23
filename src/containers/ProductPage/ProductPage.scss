@@ -1,0 +1,224 @@
+.product-page__container {
+  margin: 20px 100px;
+  display: flex;
+  justify-content: baseline;
+  .navbar {
+    flex-basis: 20%;
+    height: 100%;
+  }
+  .main-product {
+    flex-basis: 100%;
+  }
+  
+  // Thêm style cho phần filter-section
+  .filter-section {
+    flex-basis: 25%;
+    margin-right: 20px;
+    
+    h3 {
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 15px;
+      color: #333;
+    }
+    
+    h4 {
+      font-size: 16px;
+      font-weight: 600;
+      margin: 15px 0 10px 0;
+      color: #444;
+    }
+    
+    .price-filter, .sort-section {
+      background-color: #fff;
+      border-radius: 12px;
+      padding: 15px;
+      margin-bottom: 20px;
+      box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.10196078431372549),
+        0 2px 6px 2px rgba(60, 64, 67, 0.14901960784313725);
+    }
+    
+    .filter-option, .sort-option {
+      padding: 8px 10px;
+      margin: 5px 0;
+      border-radius: 8px;
+      font-size: 14px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      
+      &:hover {
+        background-color: #f0f0f0;
+      }
+      
+      &.active {
+        background-color: #e6f7ff;
+        color: #1890ff;
+        font-weight: 500;
+      }
+    }
+  }
+  
+  // Style cho kết quả lọc
+  .filter-results {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+  }
+}
+
+// Giữ nguyên main product
+.product__item {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  .outline__body {
+    background-color: transparent;
+    margin: 0 -5px;
+    width: 20%;
+    padding: 0 5px;
+    .body__cus {
+      background-color: #fff;
+      margin: 5px;
+      padding-top: 30px;
+      border-radius: 12px;
+      min-height: 380px;
+
+      //   border: 1px solid green;
+      box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.10196078431372549),
+        0 2px 6px 2px rgba(60, 64, 67, 0.14901960784313725);
+      .bg-img {
+        display: block;
+        height: 200px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        padding: 5px;
+        &.new-product__img {
+          height: 160px !important;
+          margin: 20px 0 !important;
+        }
+      }
+      .product__info {
+        margin: 20px 15px;
+        display: flex;
+        flex-direction: column;
+        // height: 200px;
+        justify-content: space-evenly;
+        .price--real {
+          color: #d0021c;
+          font-size: 18px;
+          padding: 10px 0;
+        }
+        .price--sale {
+          padding-bottom: 20px;
+          .price--begin {
+            opacity: 0.8;
+            text-decoration: line-through;
+            padding-right: 10px;
+          }
+          .price--percent {
+            background: red;
+            color: white;
+            padding: 5px;
+            border-radius: 12px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Giữ nguyên filter styles cũ
+.pl {
+  padding-left: 5px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.form-check {
+  margin-left: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.filter__container {
+  // height: 500px;
+  // border: 1px solid green;
+  font-size: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  margin: 0 20px;
+  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.10196078431372549),
+    0 2px 6px 2px rgba(60, 64, 67, 0.14901960784313725);
+  padding: 0 10px;
+  padding-bottom: 20px;
+  .product__container {
+  }
+  .tv-resolution {
+  }
+  .price__filter {
+  }
+  .title_filter {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    margin-top: 30px;
+  }
+}
+
+// Thêm style mới cho phần chức năng filter theo giá
+.price-options, .sort-options {
+  .filter-option, .sort-option {
+    position: relative;
+    padding-left: 25px;
+    
+    &:before {
+      content: "";
+      position: absolute;
+      left: 5px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 16px;
+      height: 16px;
+      border: 1px solid #ccc;
+      border-radius: 50%;
+    }
+    
+    &.active:after {
+      content: "";
+      position: absolute;
+      left: 9px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 8px;
+      height: 8px;
+      background-color: #1890ff;
+      border-radius: 50%;
+    }
+  }
+}
+
+// Responsive styling for mobile
+@media (max-width: 768px) {
+  .product-page__container {
+    margin: 10px;
+    flex-direction: column;
+    
+    .filter-section {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+    
+    .main-product {
+      flex-basis: 100%;
+    }
+  }
+  
+  .product__item {
+    .outline__body {
+      width: 50%;
+    }
+  }
+}

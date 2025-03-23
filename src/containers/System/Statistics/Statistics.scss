@@ -1,0 +1,102 @@
+#TableManage {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#TableManage td,
+#TableManage th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#TableManage tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#TableManage tr:hover {
+  background-color: #ddd;
+}
+
+#TableManage th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04aa6d;
+  color: white;
+}
+
+.btn--edit {
+  width: 50px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #ff8f00;
+
+  &:hover {
+    background-color: transparent !important;
+    color: #ff8f00 !important;
+  }
+}
+.btn--delete {
+  width: 50px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #ff0505;
+
+  &:hover {
+    background-color: transparent !important;
+    color: #ff0505 !important;
+  }
+}
+
+.checking__container {
+  margin: 20px 100px;
+  .statistic {
+    min-height: 600px;
+    height: 100%;
+    margin-bottom: 50px;
+    canvas {
+      height: 100% !important;
+    }
+  }
+  .statistic_count {
+    min-height: 400px;
+    height: 100%;
+    margin-bottom: 50px;
+    canvas {
+      height: 400px !important;
+    }
+  }
+  .tablename {
+    text-align: center;
+    font-size: 22px;
+    font-style: italic;
+  }
+}
+.products {
+  .quantity {
+    float: right;
+  }
+}
+.list-product__container {
+  width: 100%;
+  .product {
+    border-bottom: 1px solid #fff;
+
+    .product-info {
+      float: left;
+      width: 80%;
+      display: contents;
+
+      .quantity {
+        font-style: italic;
+        float: right;
+      }
+    }
+  }
+}
+.totalQuantity {
+  text-align: center;
+}
