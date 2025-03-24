@@ -21,7 +21,7 @@ class ProductTivi extends Component {
   }
 
   componentDidMount() {
-    this.props.getProductByTypeStart("Tote");
+    this.props.getProductByTypeStart("Vòng Cổ");
   }
 
   componentDidUpdate(prevProps, prevState, snapshot) {
