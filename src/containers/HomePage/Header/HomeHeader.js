@@ -248,13 +248,13 @@ class HomeHeader extends Component {
                     </span>
                     <i className="fas fa-chevron-right posi-left"></i>
                   </li>
-                  <li className="hover__event--bigger" onClick={this.getTivi}>
+                  {/* <li className="hover__event--bigger" onClick={this.getTivi}>
                     <i className="fas fa-tv"></i>
                     <span>
                       <FormattedMessage id="body.necklace" />
                     </span>
                     <i className="fas fa-chevron-right posi-left"></i>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>

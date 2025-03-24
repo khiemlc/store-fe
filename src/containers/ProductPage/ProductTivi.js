@@ -141,7 +141,7 @@ class ProductTivi extends Component {
           </div>
 
           <div className="main-product">
-            <div className="title">Sản phẩm Vòng Tay Vỏ Sò</div>
+            <div className="title">Sản phẩm Vòng Từ Vỏ Sò</div>
             <div className="filter-results">Đang hiển thị {arrProducts.length} sản phẩm</div>
             <div className="product__item">
               {arrProducts &&
