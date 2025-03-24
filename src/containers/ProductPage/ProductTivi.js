@@ -106,19 +106,19 @@ class ProductTivi extends Component {
                 <div onClick={() => this.handlePriceRangeChange(0, 0)} className="filter-option">
                   Tất cả giá
                 </div>
-                <div onClick={() => this.handlePriceRangeChange(0, 100000)} className="filter-option">
+                <div onClick={() => this.handlePriceRangeChange(0, 20000)} className="filter-option">
                   Dưới 20.000đ
                 </div>
-                <div onClick={() => this.handlePriceRangeChange(100000, 300000)} className="filter-option">
+                <div onClick={() => this.handlePriceRangeChange(20000, 30000)} className="filter-option">
                   20.000₫ - 30.000₫
                 </div>
-                <div onClick={() => this.handlePriceRangeChange(300000, 500000)} className="filter-option">
+                <div onClick={() => this.handlePriceRangeChange(30000, 40000)} className="filter-option">
                   30.000₫ - 40.000₫
                 </div>
-                <div onClick={() => this.handlePriceRangeChange(500000, 1000000)} className="filter-option">
+                <div onClick={() => this.handlePriceRangeChange(40000, 50000)} className="filter-option">
                   40.000₫ - 50.000₫
                 </div>
-                <div onClick={() => this.handlePriceRangeChange(1000000, 0)} className="filter-option">
+                <div onClick={() => this.handlePriceRangeChange(50000, 0)} className="filter-option">
                   Trên 50.000₫
                 </div>
               </div>
